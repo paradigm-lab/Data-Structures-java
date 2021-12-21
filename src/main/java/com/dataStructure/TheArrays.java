@@ -35,5 +35,15 @@ public class TheArrays {
         for (int i = colors.length - 1; i >= 0; i--) {
             System.out.println(colors[i]);
         }
+
+        System.out.println();
+        System.out.println("Using the Enhanced for loop");
+        for (String color: colors) {
+            System.out.println(color);
+        }
+
+        // Using Stream to print the array
+        System.out.println("Using the Stream to print the array");
+        Arrays.stream(colors).forEach(System.out::println);
     }
 }
