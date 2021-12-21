@@ -2,7 +2,10 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+apply plugin: 'application'
+mainClassName = "com.dataStructure.TheArrays"
+
+group 'TheArrays'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -10,8 +13,13 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+run {
+    standardInput = System.in
+    standardOutput = System.out
 }
 
 test {
