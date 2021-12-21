@@ -9,5 +9,10 @@ public class TheArrays {
         colors[1] = "Blue";
 
         System.out.println(Arrays.toString(colors));
+        System.out.println(colors[0]);
+        System.out.println(colors[1]);
+        System.out.println(colors[2]);
+        System.out.println(colors[3]);
+        System.out.println(colors[4]);
     }
 }
