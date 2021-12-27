@@ -3,7 +3,7 @@ plugins {
 }
 
 apply plugin: 'application'
-mainClassName = "com.dataStructure.TheArrays"
+mainClassName = "com.dataStructure.The2DArrays"
 
 group 'TheArrays'
 version '1.0-SNAPSHOT'
