@@ -13,16 +13,33 @@ public class The2DArrays {
             }
         }
 
+        char[][] boardTwo = new char[][] {
+                new char[]{'-','-','-'},
+                new char[]{'-','-','-'},
+                new char[]{'-','-','-'}
+        };
+
         board[0][0] = '0';
         board[1][0] = '0';
         board[2][0] = '0';
 
+        // Using the for loop to print board
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++){
                 System.out.print(board[i][j]);
             }
             System.out.println();
         }
+
+        System.out.println("\n \n \n");
+
+        // Using the for loop to print boardTwo
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++){
+                System.out.print(boardTwo[i][j]);
+            }
+        }
+
         //System.out.println(Arrays.deepToString(board));
     }
 }
