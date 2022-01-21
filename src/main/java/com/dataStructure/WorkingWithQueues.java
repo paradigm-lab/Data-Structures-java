@@ -28,6 +28,7 @@ public class WorkingWithQueues {
         System.out.println(supermarket.poll());
         System.out.println(supermarket.size());
 
+        System.out.println(supermarket.peek());
 
     }
 }
