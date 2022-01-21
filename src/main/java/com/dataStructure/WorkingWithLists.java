@@ -22,5 +22,12 @@ public class WorkingWithLists {
 
         // Printing out the arraylist
         System.out.println(colors);
+
+        // Using the for loop to loop through the array
+        // Using the enhanced for loop to loop through the Array List
+        for (String color : colors) {
+            System.out.println(color);
+        }
+
     }
 }
