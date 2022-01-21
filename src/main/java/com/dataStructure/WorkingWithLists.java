@@ -5,6 +5,15 @@ import java.util.List;
 
 public class WorkingWithLists {
     public static void main(String[] args) {
+
+        // Created a list object and using the of method to add the string values into the list
+        // And this will return me an immutable list where you can't change the list
+        List<String> colorsUnmodifiable = List.of(
+            "Blue",
+            "Yellow",
+            "pink"
+        );
+
         // Creating an object for the ArrayList class which is implementing the List interface
         List<String> colors = new ArrayList<>();
 
