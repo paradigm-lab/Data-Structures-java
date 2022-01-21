@@ -34,7 +34,12 @@ public class WorkingWithLists {
         // Using for each loop
         colors.forEach(System.out::println);
 
+        System.out.println();
 
+        // Using the traditional for loop to iterator through the array list
+        for (int i = 0; i < colors.size(); i++) {
+            System.out.println(colors.get(i));
+        }
 
     }
 }
