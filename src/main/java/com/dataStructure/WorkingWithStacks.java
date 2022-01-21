@@ -14,6 +14,13 @@ public class WorkingWithStacks {
 
         // Using the peek method to see the element on the top of the stack
         System.out.println(stack.peek());
+        System.out.println(stack.size());
+
+        System.out.println();
+
+        // Using the pop method to remove the last value in the stack
+        System.out.println(stack.pop());
+        System.out.println(stack.size());
 
 
     }
