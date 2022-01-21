@@ -19,5 +19,8 @@ public class WorkingWithQueues {
         supermarket.add(new Person("Alex", 21));
         supermarket.add(new Person("Mariam", 18));
         supermarket.add(new Person("Ali", 60));
+
+        System.out.println(supermarket.peek());
+
     }
 }
