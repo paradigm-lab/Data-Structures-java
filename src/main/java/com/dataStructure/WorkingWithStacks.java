@@ -7,6 +7,13 @@ public class WorkingWithStacks {
         // Creating a stack object
         Stack<Integer> stack = new Stack<>();
 
+        // Using the push method to add the integer values into the stack
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+
+        // Using the peek method to see the element on the top of the stack
+        System.out.println(stack.peek());
 
 
     }
