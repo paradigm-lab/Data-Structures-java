@@ -29,5 +29,12 @@ public class WorkingWithLists {
             System.out.println(color);
         }
 
+        System.out.println();
+
+        // Using for each loop
+        colors.forEach(System.out::println);
+
+
+
     }
 }
