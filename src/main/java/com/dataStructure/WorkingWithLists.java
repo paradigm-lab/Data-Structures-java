@@ -41,5 +41,12 @@ public class WorkingWithLists {
             System.out.println(colors.get(i));
         }
 
+        System.out.println();
+
+        // Printing out the colors list object in a reverse order
+        for (int i = colors.size() - 1; i >= 0; i--) {
+            System.out.println(colors.get(i));
+        }
+
     }
 }
