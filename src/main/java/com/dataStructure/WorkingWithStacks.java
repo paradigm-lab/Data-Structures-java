@@ -22,6 +22,12 @@ public class WorkingWithStacks {
         System.out.println(stack.pop());
         System.out.println(stack.size());
 
+        System.out.println();
+
+        // Using the empty method to check if the stack is empty
+        boolean container = stack.empty();
+        System.out.println(container);
+
 
     }
 }
