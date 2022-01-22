@@ -11,6 +11,8 @@ public class WorkingWithSets {
 
     public static void main(String[] args) {
         Set<Ball> balls = new HashSet<>();
-
+        balls.add(new Ball("Blue"));
+        balls.add(new Ball("Yellow"));
+        balls.add(new Ball("Red"));
     }
 }
