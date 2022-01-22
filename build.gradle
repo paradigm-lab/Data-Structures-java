@@ -3,7 +3,7 @@ plugins {
 }
 
 apply plugin: 'application'
-mainClassName = "com.dataStructure.WorkingWithQueues"
+mainClassName = "com.dataStructure.WorkingWithSets"
 
 group 'TheArrays'
 version '1.0-SNAPSHOT'
