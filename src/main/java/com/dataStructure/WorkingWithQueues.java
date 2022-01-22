@@ -19,8 +19,17 @@ public class WorkingWithQueues {
 
         // Created a list iterator object which we will use to iterator throughout the LinkedList
         ListIterator<Person> personListIterator = linkedList.listIterator();
+
+        // Iterating through a list through the next approach of the list
         while (personListIterator.hasNext()) {
             System.out.println(personListIterator.next());
+        }
+
+        System.out.println();
+
+        // Iterating through the list in a previous approach
+        while (personListIterator.hasPrevious()) {
+            System.out.println(personListIterator.previous());
         }
     }
 
