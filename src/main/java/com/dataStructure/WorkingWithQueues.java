@@ -16,6 +16,7 @@ public class WorkingWithQueues {
         LinkedList<Person> linkedList = new LinkedList<>();
         linkedList.add(new Person("Alex", 21));
         linkedList.add(new Person("Maria", 20));
+        linkedList.addFirst(new Person("Ali", 18));
 
         // Created a list iterator object which we will use to iterator throughout the LinkedList
         ListIterator<Person> personListIterator = linkedList.listIterator();
