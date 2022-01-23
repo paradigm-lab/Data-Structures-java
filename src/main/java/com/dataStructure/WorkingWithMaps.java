@@ -66,6 +66,8 @@ public class WorkingWithMaps {
     public static void main(String[] args) {
         Map<Person, Diamond> map = new HashMap<>();
         map.put(new Person("Jamila"), new Diamond("African Diamond"));
+
+        System.out.println(map.get(new Person("Jamila")));
     }
 
 
