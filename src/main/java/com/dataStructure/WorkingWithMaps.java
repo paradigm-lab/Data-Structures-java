@@ -25,6 +25,9 @@ public class WorkingWithMaps {
         System.out.println(map.containsKey(4));
         System.out.println(map.entrySet());
         System.out.println(map.keySet());
+
+        map.entrySet().forEach(System.out::println);
     }
+
 
 }
