@@ -17,7 +17,7 @@ public class WorkingWithMaps {
         map.put(1, new Person("Alex"));
         map.put(2, new Person("Collins"));
         map.put(3, new Person("Mariam"));
-
+        map.put(3, new Person("Mariam 2"));
         // Printing out the map
         System.out.println(map);
     }
