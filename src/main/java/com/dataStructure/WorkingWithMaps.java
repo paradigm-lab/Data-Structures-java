@@ -27,6 +27,11 @@ public class WorkingWithMaps {
         System.out.println(map.keySet());
 
         map.entrySet().forEach(System.out::println);
+
+        System.out.println();
+
+        // Using a lambda
+        map.entrySet().forEach(x -> System.out.println(x.getKey() + " " + x.getValue()));
     }
 
 
