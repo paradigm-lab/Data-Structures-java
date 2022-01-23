@@ -32,6 +32,14 @@ public class WorkingWithMaps {
 
         // Using a lambda
         map.entrySet().forEach(x -> System.out.println(x.getKey() + " " + x.getValue()));
+
+        System.out.println();
+
+        // Using a lambda function without using the entrySet method
+        map.forEach(((key, person) -> {
+            System.out.println(key + " - " + person);
+        }));
+
     }
 
 
