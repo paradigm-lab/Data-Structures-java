@@ -17,9 +17,14 @@ public class WorkingWithMaps {
         map.put(1, new Person("Alex"));
         map.put(2, new Person("Collins"));
         map.put(3, new Person("Mariam"));
-        map.put(3, new Person("Mariam 2"));
         // Printing out the map
         System.out.println(map);
+
+        System.out.println(map.size());
+        System.out.println(map.get(1));
+        System.out.println(map.containsKey(4));
+        System.out.println(map.entrySet());
+        System.out.println(map.keySet());
     }
 
 }
