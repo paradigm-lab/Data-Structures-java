@@ -9,6 +9,10 @@ public class WorkingWithMaps {
 
     }
 
+    record Diamond(String name) {
+
+    }
+
    private static void maps() {
         // Created a map object
         Map<Integer, Person> map = new HashMap<>();
@@ -47,8 +51,10 @@ public class WorkingWithMaps {
         System.out.println(map.values());
     }
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        Map<Person, Diamond> map = new HashMap<>();
+        map.put(new Person("Jamila"), new Diamond("African Diamond"));
     }
 
 
