@@ -9,7 +9,7 @@ public class WorkingWithMaps {
 
     }
 
-    public static void main(String[] args) {
+   private static void maps() {
         // Created a map object
         Map<Integer, Person> map = new HashMap<>();
 
@@ -45,6 +45,10 @@ public class WorkingWithMaps {
         System.out.println(map.getOrDefault(3, new Person("Default")));
 
         System.out.println(map.values());
+    }
+
+    public static void main(String[] args) {
+
     }
 
 
