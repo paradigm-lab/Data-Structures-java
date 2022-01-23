@@ -3,7 +3,7 @@ plugins {
 }
 
 apply plugin: 'application'
-mainClassName = "com.dataStructure.WorkingWithSets"
+mainClassName = "com.dataStructure.WorkingWithMaps"
 
 group 'TheArrays'
 version '1.0-SNAPSHOT'
