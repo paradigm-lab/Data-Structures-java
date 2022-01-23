@@ -42,6 +42,9 @@ public class WorkingWithMaps {
             System.out.println(key + " - " + person);
         }));
 
+        System.out.println(map.getOrDefault(3, new Person("Default")));
+
+        System.out.println(map.values());
     }
 
 
