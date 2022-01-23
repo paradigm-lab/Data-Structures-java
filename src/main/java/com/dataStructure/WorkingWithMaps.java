@@ -5,8 +5,19 @@ import java.util.Map;
 
 public class WorkingWithMaps {
 
-    record Person(String name) {
+    static class Person{
+        String name;
 
+        public Person(String name) {
+            this.name = name;
+        }
+
+        @Override
+        public String toString() {
+            return "Person{" +
+                    "name='" + name + '\'' +
+                    '}';
+        }
     }
 
     record Diamond(String name) {
