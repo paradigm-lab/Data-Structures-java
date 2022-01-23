@@ -81,6 +81,8 @@ public class WorkingWithMaps {
         Map<Person, Diamond> map = new HashMap<>();
         map.put(new Person("Jamila"), new Diamond("African Diamond"));
 
+        System.out.println(new Person("Golang").hashCode());
+        System.out.println(new Person("Golang").hashCode());
         System.out.println(map.get(new Person("Jamila")));
     }
 
