@@ -26,6 +26,8 @@ public class WorkingWithMaps {
         System.out.println(map.entrySet());
         System.out.println(map.keySet());
 
+        map.remove(3);
+
         map.entrySet().forEach(System.out::println);
 
         System.out.println();
