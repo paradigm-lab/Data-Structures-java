@@ -46,6 +46,9 @@ public class WorkingWithSets {
         balls.add(new Ball("Yellow"));
         balls.add(new Ball("Red"));
 
+        // Used the remove method to remove the Red color in the Set
+        balls.remove(new Ball("Red"));
+
         // Printing out the size of the Hashset
         System.out.println(balls.size());
 
